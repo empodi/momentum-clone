@@ -1,0 +1,22 @@
+#clock-box {
+  position: absolute;
+  bottom: 3%;
+  z-index: 3;
+  color: white;
+}
+#clock-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#clock {
+  font-size: 45px;
+  letter-spacing: 3px;
+  bottom: 120px;
+  left: 400px;
+}
+#clock-am-pm {
+  margin-left: 17px;
+}

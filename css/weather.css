@@ -1,0 +1,26 @@
+@keyframes weather-appear {
+  from {
+    transform: none;
+    opacity: 0;
+  }
+  to {
+    transform: translateX(-120px);
+    opacity: 1;
+  }
+}
+.weather-box-appear {
+  animation: weather-appear 1s ease-in-out forwards;
+}
+#weather {
+  position: fixed;
+  top: 20px;
+  right: -80px;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 8px;
+  border-radius: 10px;
+}
