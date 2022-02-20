@@ -2,7 +2,7 @@
   position: fixed;
   z-index: 3;
   top: 400px;
-  width: 800px;
+  width: 900px;
   height: 30%;
   display: flex;
   justify-content: center;
@@ -34,7 +34,7 @@
   width: 90%;
 }
 #login-form input {
-  width: 73%;
+  width: 85%;
   background-color: transparent;
   color: white;
   padding: 20px;
